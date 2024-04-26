@@ -5,7 +5,7 @@ on: [push]
 env:
   APPLICATION_NAME: flaskapp
   REGISTRY: ghcr.io
-  IMAGE_NAME: CalculatorAPP
+  IMAGE_NAME: calculatorapp
 
 jobs:
   DockerBuildPublish:
