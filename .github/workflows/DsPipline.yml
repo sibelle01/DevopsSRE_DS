@@ -3,9 +3,9 @@ name: DsPipeline
 on: [push]
 
 env:
-  APPLICATION_NAME: flaskapp
-  REGISTRY: ghcr.io
-  IMAGE_NAME: CalculatorApp
+  APPLICATION_NAME: CalculatorAPP
+  REGISTRY: ghcr.io/sibelle01
+  IMAGE_NAME: CalculatorAPP
 
 jobs:
   DockerBuildPublish:
